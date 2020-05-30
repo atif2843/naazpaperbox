@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size:62.5%
+}
+body{
+    font-family: lato,sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    box-sizing: border-box;
+    background-image: linear-gradient(to left, rgb(211,175,144), rgb(241,230,221));
+}
+header.header-container{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+}
+div.logo-box{
+    display: flex;
+    width: 30%;
+    height: inherit;
+    position: relative;
+}
+div.nav-conatiner{
+    width: 100%;
+    position: relative;
+}
+nav.nav-links{
+    width: 90%;
+    float: right;
+    border-top: 1rem solid #28AF4A;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+nav.nav-links ul{
+    list-style-type: none;
+    display: flex;
+    float: right;
+}
+nav.nav-links ul li{
+    margin-right: 0rem;
+}
+nav.nav-links ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+}
+nav.nav-links ul li a:hover{
+    clip-path: polygon(51% 0, 100% 0, 82% 100%, 18% 100%, 0 0);
+    background-color: #28AF4A;
+}
+div.logo-box img{
+    height: 8.4rem;
+    margin: 1.6rem 8.2rem;
+}
+div.logo-box .logo-heading{
+    display: block;
+    position: absolute;
+    top: 58%;
+    font-size: 2.4rem;
+    margin: 2rem 2.4rem;
+}
+.btns-social{
+    float: right;
+}
+.btns-social img{
+    height: 2rem;
+}
+main.main-section{
+    background: url(../images/Box-Makers-Certificate-1024x444.png);
+    height: 80vh;
+    width: 95%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+div.triangle{
+    width: 100%;
+    height: inherit;
+    clip-path: polygon(100% 0, 0 100%, 0 0);
+    background-color: rgb(215, 182, 152,0.8);
+}
+@media screen (min-width:)
